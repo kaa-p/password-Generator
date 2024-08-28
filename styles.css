@@ -1,0 +1,125 @@
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image:url(i3.jfif ) ;
+    background-size: cover;
+}
+
+.container {
+    
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 50px rgba(253, 254, 254, 0.895);
+    width: 350px;
+   
+}
+
+h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #2f59fee7;
+}
+
+/* Display container */
+.display-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.display {
+    width: 80%;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #f7f3f3;
+    border-radius: 10px;
+    background-color: #fef6f6f7;
+}
+
+button[data-copy] {
+
+    background-color: #dedee8;
+    border: none;
+    color: rgb(4, 239, 59);
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[data-copy]:hover {
+    background-color: #0d78eb;
+  
+}
+
+button[data-copy] img {
+    vertical-align: middle;
+}
+
+/* Input container */
+.input-container p {
+    margin: 5px 0;
+    color: #faf5f5;
+}
+
+.length-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input[type="range"] {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+input[type="checkbox"] + label {
+    color: #fdfbfb;
+}
+
+/* Strength container */
+.strength-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.strength-container p {
+    color: #fffcfc;
+}
+
+div[data-indicator] {
+    width: 30px;
+    height: 30px;
+    background-color: #f7f5f5;
+    border-radius: 50px;
+}
+
+/* Generate button */
+.GenerateButton {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.GenerateButton:hover {
+    background-color: #0d78eb;
+}
+
